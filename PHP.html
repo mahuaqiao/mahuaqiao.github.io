@@ -1,13 +1,15 @@
+
 <!DOCTYPE html>
-<html><head>
-<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+<html>
+  <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>麻华侨的博客</title>
-
-    <link href="config/bootstrap.css" rel="stylesheet">
-    <link rel="stylesheet" type="text/css" href="config/index.css">
+    <title>程汉艳的博客</title>
+    <script scr="config/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="config/bootstrap.min.css" />
+    <link rel="stylesheet" href="config/index.css" />
+    <!-- <link rel="stylesheet" type="text/css" href="config/index.css" /> -->
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -17,302 +19,149 @@
     <![endif]-->
   </head>
   <body>
-    	<header class="container-fluid">
-    			<div class="container">
-    				<div class="col-md-8 col-xs-12 col-sm-8 title">
-	    				<h1>麻华侨的博客</h1>
-	    			</div>
-
-	    			<div class="searchBox col-md-3 col-xs-12">
-	    				<form class="form-line">
-	    					<h2>
-	    						<input class="form-control" name="search" placeholder="输入内容后回车搜索" type="search">
-	    					</h2>
-
-	    				</form>
-	    			</div>
-    			</div>
-    	</header>
+        <header class="container-fluid">
+                <div class="container">
+                    <div class="col-md-8 col-xs-12 col-sm-8 title">
+                        <h1>PHP</h1>
+                    </div>
+                </div>
+        </header>
 
 
-		<nav class="navbar navbar-default">
-		  <div class="container-fluid" id="nav">
-		  	<div class="row">
-		  		<div class="container">
-		  			<div class="col-md-12 col-xs-12 col-sm-12">
-		 					<!-- Brand and toggle get grouped for better mobile display -->
-						    <div class="navbar-header">
-						      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navHidden" aria-expanded="false">
-						        <span class="sr-only">Toggle navigation</span>
-						        <span class="icon-bar"></span>
-						        <span class="icon-bar"></span>
-						        <span class="icon-bar"></span>
-						      </button>
-						    
-						    </div>
+        <nav class="navbar navbar-default">
+          <div class="container-fluid" id="nav">
+            <div class="row">
+                <div class="container">
+                    <div class="col-md-12 col-xs-12 col-sm-12">
+                            <!-- Brand and toggle get grouped for better mobile display -->
+                            <div class="navbar-header">
+                              <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navHidden" aria-expanded="false">
+                                <span class="sr-only">Toggle navigation</span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                              </button>
+                            
+                            </div>
 
-				    		<!-- Collect the nav links, forms, and other content for toggling -->
-						    <div class="collapse navbar-collapse" id="navHidden">
+                            <!-- Collect the nav links, forms, and other content for toggling -->
+                            <div class="collapse navbar-collapse" id="navHidden">
 
-						      <ul class="nav navbar-nav">
-						        <li class="active">
-						        	<a href="#">首页 <span class="sr-only">(current)</span></a></li>
-                    <li><a href="#">PHP</a></li>
-						        <li><a href="#">微信开发</a></li>
-						        <li><a href="#">Git</a></li>
-						        <li><a href="#">MySQL</a></li>
-						   
-                    <li><a href="#">好文分享</a></li>
-                    <li><a href="#">工具</a></li>
-                    <li><a href="#">杂谈</a></li>
-						      
-						      </ul>
+                              <ul class="nav navbar-nav">
+                                <li class="active">
+                                    <a href="../index.html">首页 <span class="sr-only">(current)</span></a></li>
+                    <li><a href="./safe.html">PHP</a></li>
+                                <li><a href="../Wechat/index.html">微信开发</a></li>
+                                <li><a href="#" class="noContent">Linux</a></li>
+                                <li><a href="#">Git</a></li>
+                                <li><a href="#" class="noContent">JavaScript</a></li>
+                                <li><a href="#" class="noContent">大型Web架构</a></li>
+                                <li><a href="#">好文分享</a></li>
+                                <li><a href="#">工具</a></li>
+                              
+                              </ul>
 
-						    </div><!-- /.navbar-collapse -->
-					  </div><!-- /.container-fluid -->
-		  			</div>
-		  		</div>
-		  	</div>
-		   
-		</nav>
+                            </div><!-- /.navbar-collapse -->
+                      </div><!-- /.container-fluid -->
+                    </div>
+                </div>
+            </div>
+           
+        </nav>
 
-		<!--主体部分-->
-		<section class="container-fluid">
-			<div class="container">
+        <!--主体部分-->
+        <section class="container-fluid">
+            <div class="container">
 
-				<div class="col-md-8 mainLeft">
-					<article class="post">
-						<div class="title-div">
-							<h2>
-								<a href="">prop与attr的区别</a>
-							</h2>
-							<div>
-								作者：梁芝 • 2016年1月8日
-							</div>
-						</div>
-
-
-						<div class="post-content">
-							<p>
-								<img class="img-responsive" src="config/2016-04-16_182059.png" alt="">
-							</p>
-						</div>
-
-						<div class="readFull">
-							<a href="#" class="btn btn-default">阅读全文</a>
-						</div>
-
-						<footer class="post-footer clearfix">
-					        <div class="pull-left tag-list">
-					            <i class="fa fa-folder-open-o"></i>
-					            <a href="#">jQuery</a>, <a href="#">jQuery的prop()方法与attr()区别</a>
-					        </div>
-					        <div class="pull-right share">
-					        </div>
-    					</footer>
-					</article>
+                <div class="col-md-8 mainLeft">
 
                     <article class="post">
                         <div class="title-div">
                             <h2>
-                                <a href="">上传插件dropzone.js实例</a>
+                                PHP安全-隐藏PHP
                             </h2>
                             <div>
-                                作者：梁芝 • 2016年2月8日
+                                作者：程汉艳 • 2016年7月15日
                             </div>
                         </div>
 
                         <div class="post-content">
+                            <p>&nbsp;&nbsp;&nbsp;&nbsp;一般而言，通过隐藏的手段提高安全性被认为是作用不大的做法。但某些情况下，尽可能增加一份安全性都是值得去做的。</p>
+                            <p>一些简单的方法可以帮助隐藏PHP，这样做可以提供攻击者发现系统弱点的难度。在php.ini文件里设置<pre>expose_php = off</pre>可以减少他们获得有用信息的几率。
+
                             <p>
-                                </p><p>dropzone.js默认是Ajax上传图片给服务器，那么如何获取到图片名呢？其实我们是可以通过dropzone的success函数获取到服务器返回的数据</p>
-                                <p>dropzone.js在HTML的配置如下；</p>
-                                <pre>                                   
-    Dropzone.autoDiscover = false;//防止报"Dropzone already attached."的错误
-        $(".dropzone").dropzone({
-        url: "__URL__/upload/",
-        addRemoveLinks: true,
-        dictRemoveLinks: "x",
-        dictCancelUpload: "x",
-        paramName:"userImg",
-        maxFiles: 10,
-        maxFilesize: 5,
-        acceptedFiles: "image/*",
-        init: function() {
+                                <strong>expose_php = On 的时候可以看到php的版本：</strong><br/><br/>
+                                <img src="config/2016-07-15_140929.png" alt="">
 
-            //res为服务器响应回来的数据
-            this.on("success", function(file, res) {
+                                <br/>
+                                <strong>expose_php = Off后，看不到php的版本</strong>
+                                
+                                 <img src="config/2016-07-15_141103.png" alt="">
+                            </p>
 
-                //将json字符串转换成json对象
-                var obj = JSON.parse(res);
+                            <p>
+                                
+                                另外一个策略就是让web服务器用PHP解析不同扩展名。无论是通过.htaccess文件还是
+                                Apache的配置文件，都可以设置能误导攻击者的文件扩展名：
 
-                console.log(obj);
-                
-                if( obj.status == 200 ){
+                                <p>
+                                    例子：把PHP隐藏为另外一种语言
+                                  <pre>AddType application/x-httpd-php .asp .py .pl</pre>
+                                </p>
 
-                    //将服务器得到的数据生成一个隐藏域。做商品添加的时候就可以获取到了
-                    var input = '&lt;input type="hidden" name="'+obj.details.savename+'" value="'+obj.details.savepath+obj.details.savename+'" /&gt;';
-                    $('.myform').append(input);
-
-                }else{
-                    alert('上传失败');
-                }
-                
-
-                
-            });
-            this.on("removedfile", function(file) {
-                console.log("File " + file.name + "removed");
-            });
-        }
-    });
-
-    
-
-                               </pre>
-                            <p></p>
-                            <p>PHP的代码如下(Thinkphp代码)：</p>
-                            <pre>                                
-    public function upload()
-    {    
-
-        /*
-          添加商品 ：商品名、商品图片
-         */
-
-           // 实例化上传类    
-          $upload = new \Think\Upload();
-
-           // 设置附件上传大小    
-          $upload-&gt;maxSize   =     3145728 ;
-
-        // 设置附件上传类型   
-          $upload-&gt;exts      =     array('jpg', 'gif', 'png', 'jpeg');
-
-//A开发者写了upload()   B开发
-          // 设置附件上传目录   
-           $upload-&gt;savePath  =      './Public/Uploads/'; 
-
-
-          //返回上传信息
-          $info   =   $upload-&gt;uploadOne($_FILES['userImg']);   
-          // dump($info);exit;
-          if( !$info ) {
-            // 上传错误提示错误信息
-              // $this-&gt;error($upload-&gt;getError()); 
-              $data['status'] = 404;
-
-              //错误信息
-              $data['msg']    = $upload-&gt;getError();
-              
-              echo  json_encode($data);
-
-          }else{
-            // 上传成功 (图片路径、图片名字)
-              
-              $data['status']  = 200;
-              $data['msg']     = 'UPLOAD SUCCESS';
-
-              //图片原始名字
-              $data['details']['originName'] = $info['name'];
-              $data['details']['savename'] = $info['savename'];
-              $data['details']['savepath'] = $info['savepath'];
-
-              echo json_encode($data);
-          }
-   }
-                            </pre>
+                                <p>
+                                    <b>还可以设置httpd.conf来隐藏apache信息</b>
+                                    <pre>ServerTokens Prod
+ServerSignature Off</pre>
+                                    这样设置后在响应头也是看不了apache的相关信息了。
+                                </p>
+                            </p>
                         </div>
 
-                        <div class="readFull">
-                            <a href="#" class="btn btn-default">阅读全文</a>
-                        </div>
-
-                        <footer class="post-footer clearfix">
-                            <div class="pull-left tag-list">
-                                <i class="fa fa-folder-open-o"></i>
-                                <a href="#">dropzone.js</a>, <a href="#">dropzone.js的使用实例</a>
-                            </div>
-                            <div class="pull-right share">
-                            </div>
-                        </footer>
                     </article>
-
-
-					
-					<nav class="pagination" role="navigation">
-        				<a class="newer-posts" href="#">
-        					<i class="fa fa-angle-left">&lt;</i>
-        				</a>
-    					<span class="page-number">第 1 页 ⁄ 共 2 页</span>
-        				<a class="older-posts" href="#">
-        					<i class="fa fa-angle-right">&gt;</i>
-        				</a>
-					</nav>
-				</div>
-				<aside class="col-md-3 hidden-sm hidden-xs mainRight ">
-					<div class="widget">
-						<div class="aside">
-							<h4>近期文章</h4>
-						</div>
-						<div class="content">
-              <p>
-                <a href="#">
-                   如何在Github搭建自己的个人博客
-                </a>
+                    
                 
-              </p>
-							<p>
-								<a href="#">
-									 如何在Centos搭建Git服务器
-								</a>
-								
-							</p>
+                </div>
+                <aside class="col-md-3 hidden-sm hidden-xs mainRight ">
+                    <div class="widget">
+                        <div class="aside">
+                            <h4>近期文章</h4>
+                        </div>
+                        <div class="content">
+                            <p>
+                                <a href="#">
+                                    搭建Git服务器
+                                </a>
+                                
+                            </p>
+                            <p>
+                                <a href="">
+                                    从HTTP协议角度看GET与POST请求的区别
+                                </a>
+                                
+                            </p>
+                        </div>
+                    </div>
 
-							<p>
-							     <a href="#">MySQL优化</a>
-								
-							</p>
-						</div>
-					</div>
+
+                </aside>
 
 
-				</aside>
+            </div>
 
 
-			</div>
 
-		</section>
+        </section>
+               <nav class="pagination" role="navigation">
 
-    <footer>
-        
-        <table class="table table-border">
-          <caption><h3>友情链接</h3></caption>
-            <tbody><tr>
-              
-              <td><a href="http://www.phpsafe.com/">Poacher'Blog</a></td>
-              <td><a href="https://cs.phphub.org/">Laravel5.1 LTS 速查表</a></td>
-
-            </tr>
-
-        </tbody></table>
-      
-    </footer>
-
-   
-    <script src="config/jquery.js"></script>
+              <span class="page-number">第 1 页 ⁄ 共 2 页</span>
+              <a class="newer-posts" href="./safe1.html">
+                <i class="fa fa-angle-left">&gt;</i>
+              </a>
+            </nav>   
+    <script src="config/jquery-1.11.3.js"></script>
   
-    <script src="config/bootstrap.js"></script>
+    <script src="config/bootstrap.min.js"></script>
+  </body>
+</html>
 
-    <script>
-      $('.noContent').click(function(){
-
-          var content = $(this).text();
-
-          alert('暂时没有'+content+'的内容,请期待');
-
-      });
-
-    </script>
-  
-
-</body></html>
